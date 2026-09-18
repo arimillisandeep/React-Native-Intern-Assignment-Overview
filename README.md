@@ -78,3 +78,11 @@ eas build --platform android --profile preview
 ```
 
 The included `eas.json` preview profile produces an installable APK.
+
+## Web Deployment
+
+The production web build is deployed and live at:
+
+🔗 https://dist-3mgbcr0uz-sandeeparimilli2001-4822s-projects.vercel.app
+
+It was built with `npx expo export --platform web` and deployed to Vercel.
