@@ -84,6 +84,6 @@ The included `eas.json` preview profile produces an installable APK.
 The production web build is deployed live at:
 
 - **GitHub Pages**: https://arimillisandeep.github.io/React-Native-Intern-Assignment-Overview/
-- **Vercel**: https://dist-3mgbcr0uz-sandeeparimilli2001-4822s-projects.vercel.app
+- **Vercel**: https://fotoowl-gallery-9szfifftb-sandeeparimilli2001-4822s-projects.vercel.app
 
-Both are built from `npx expo export --platform web`. The `gh-pages` branch contains the web build for GitHub Pages, and the Vercel deployment is automatically configured from the repository.
+Both are built from `npx expo export --platform web`. The `gh-pages` branch contains the web build for GitHub Pages, and the Vercel deployment (`fotoowl-gallery` project) is automatically configured from the repository.
