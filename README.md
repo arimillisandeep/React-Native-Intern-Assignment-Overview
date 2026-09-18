@@ -81,8 +81,9 @@ The included `eas.json` preview profile produces an installable APK.
 
 ## Web Deployment
 
-The production web build is deployed and live at:
+The production web build is deployed live at:
 
-🔗 https://dist-3mgbcr0uz-sandeeparimilli2001-4822s-projects.vercel.app
+- **GitHub Pages**: https://arimillisandeep.github.io/React-Native-Intern-Assignment-Overview/
+- **Vercel**: https://dist-3mgbcr0uz-sandeeparimilli2001-4822s-projects.vercel.app
 
-It was built with `npx expo export --platform web` and deployed to Vercel.
+Both are built from `npx expo export --platform web`. The `gh-pages` branch contains the web build for GitHub Pages, and the Vercel deployment is automatically configured from the repository.
