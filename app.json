@@ -1,11 +1,20 @@
 {
   "expo": {
     "name": "FotoOwl",
-    "slug": "FotoOwl",
+    "slug": "fotoowl-gallery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow FotoOwl to save photos to your gallery."
+        }
+      ],
+      "expo-sharing"
+    ],
     "ios": {
       "supportsTablet": true
     },
